@@ -1,0 +1,957 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (min-width:1200px) and (max-width:2000px) {
+    header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        height: 80px;
+    }
+    .header_section {
+        display: flex;
+        justify-content: space-between;
+        width: 1300px;
+        margin: 0 50px;
+    }
+    .WebStudio{
+        position: relative;
+        top: -5px;
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        color: #2196F3;
+        transition: 0.5s;
+    }
+    .logo_2_element{
+        color: rgb(0, 0, 1)
+    }
+    .menu_nav{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 294px;
+        height: 48px;
+    }
+    a {
+        text-decoration: none;
+        color: #757575;
+    }
+    .menu_nav a {
+        list-style: none;
+        transition: 0.2s;
+    }
+    .menu_nav a:hover {
+        border-bottom: 4px solid #2196F3;
+    }
+    .Portfolia{
+        color: #2196F3;
+        border-bottom: 4px solid #2196F3;
+    }
+    .studio:hover , .contact:hover {
+        color: #2196F3;
+        transform: scale(1.05);
+    }
+    .mail_tel {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+        position: relative;
+        top: -13px;
+    }
+    .social_network {
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+    }
+    .social_network svg {
+        margin-right: 10px;
+    }
+    .mail{
+        transition: 0.5s;
+    }
+    .mail:hover {
+        color:#2196F3;
+    }
+    .tel{
+        text-decoration: none;
+        color: #757575;
+        transition: 0.5s;
+    }
+    .tel:hover {
+        color: #2196F3;
+    }
+    hr {
+        color: rgba(240, 240, 240, 0.295);
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1500px;
+    }
+    .main_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 1420px;
+        margin: 0 50px;
+    }
+    .menu_button {
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .choose {
+        padding: 6px 22px;
+        background: #F5F4FA;
+        color: black;
+        font-size: 16px;
+        border: none;
+        border-radius:6%;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+    .choose:hover {
+        transform: scale(1.05);
+        background: #2196F3;
+        color: white;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+    .all {
+        padding: 6px 22px;
+        font-size: 16px;
+        border: none;
+        border-radius:6%;
+        background: #2196F3;
+        color: white;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        cursor: pointer;
+    }
+    .menu_design {
+        max-width:1170px;
+        min-width:1050px;
+        height: 1360px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .design {
+        width: 33%;
+        height: 404px;
+        border: 1px solid #EEEEEE;
+        transition: 0.4s;
+    }
+    .design img {
+        width: 100%;
+    }
+    .design:hover {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+    .advertising {
+        position: relative;
+        top: -348px;
+        left: 0;
+        width: 100%;
+        height: 306px;
+        color: white;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        padding: 63px 24px 63px 24px;
+        letter-spacing: 0.03em;
+        opacity: 0;
+        transition: opacity .4s;
+    }
+    .design:hover .advertising {
+        background: rgba(33, 150, 243, 0.9);
+        opacity: 1;
+    }
+    .profesion {
+        font-weight: 700;
+        font-size: 18px;
+        position: relative;
+        left: 24px;
+        top: 20px;
+    }
+    .Web {
+        font-size: 16px;
+        position: relative;
+        left: 24px;
+        top: 40px;
+        color: #757575;
+    }
+
+    footer {
+        width: 100%;
+        height: 252px;
+        background: #2F303A;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .group_section {
+        width: 1150px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 50px;
+    }
+    .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 140px;
+    }
+    .section12 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 110px;
+    }
+    .WebStudio_footer {
+        text-decoration: none;
+        font-weight: 700;
+        font-family: 'Raleway';
+        font-size: 26px;
+        line-height: 31px;
+        color: #2196F3;
+        transition: 0.5s;
+    }
+    .logo_2_element_footer {
+        color: white;
+    }
+    .mail_tel_footer {
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        list-style: none;
+    }
+    .location {
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .mail_footer {
+        font-weight: 400;
+        font-size: 14px;
+        transition: 0.5s;
+    }
+    .mail_footer:hover {
+        color: #2196F3;
+    }
+    .tel_footer {
+        font-weight: 400;
+        font-size: 14px;
+        transition: 0.5s;
+    }
+    .tel_footer:hover {
+        color: #2196F3;
+    }
+    .WebStudio:hover, .WebStudio_footer:hover {
+        transform: scale(1.1);
+    }
+    .join_in {
+        font-weight: 700;
+        font-size: 14px;
+        color: white;  
+    }
+    .icons {
+        width: 206px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: #FFFFFF1A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s;
+    }
+    .icon:hover {
+        background: #2196F3;
+    }
+    .subscribe_on {
+        font-weight: 700;
+        font-size: 14px;
+        color: white;
+    }
+    .input_for_subscribe {
+        display: flex;
+        justify-content: space-between;
+        width: 580px;
+    }
+    .e_mail {
+        width: 358px;
+        height: 50px;
+        background: transparent;  
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 15px 0 15px 16px;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.3);
+    }
+    .clic {
+        width: 200px;
+        height: 50px;
+        background: #2196F3;
+        border: none;
+        cursor: pointer;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .subscribe {
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+        padding: 0 10px 0 0;
+    }
+    .section123 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 110px;
+    }
+    .svg_menu {
+        display: none;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .menu_nav, .mail_tel {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    hr {
+        color: rgba(240, 240, 240, 0.295);
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+    }
+    .header_section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 440px;
+        margin: 0 10px;
+    }
+    .WebStudio{
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 24px;
+        color: #2196F3;
+        transition: 0.5s;
+    }
+    .logo_2_element{
+        color: rgb(0, 0, 1)
+    }
+    .WebStudio:hover {
+        transform: scale(1.02);
+    }
+    .svg_menu {
+        cursor: pointer;
+    }
+
+    .main_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu_button {
+        width: 350px;
+        height: 90px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0 46px 5px;
+    }
+    .menu_d {
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        width: 100%;
+    }
+    .choose {
+        padding: 7px 20px;
+        background: #F5F4FA;
+        color: black;
+        font-size: 16px;
+        border: none;
+        border-radius:6%;
+        transition: 0.4s;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+    .choose:hover {
+        transform: scale(1.02);
+        background: #2196F3;
+        color: white;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+    .all {
+        padding: 7px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius:6%;
+        background: #2196F3;
+        color: white;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        cursor: pointer;
+        margin-left: 10px;
+    }
+    .menu_design {
+        height: 3900px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+    .design {
+        width: 450px;
+        height: 404px;
+        border: 1px solid #EEEEEE;
+        transition: 0.4s;
+    }
+    .design img {
+        width: 100%;
+        height: 294px;
+    }
+    .design:hover {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+    .advertising {
+        position: relative;
+        top: -335px;
+        width: 450px;
+        height: 294px;
+        color: white;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        padding: 77px 22px;
+        letter-spacing: 0.03em;
+        opacity: 0;
+        transition: opacity .4s;
+    }
+    .design:hover .advertising {
+        background: rgba(33, 150, 243, 0.9);
+        opacity: 1;
+    }
+    .profesion {
+        font-weight: 700;
+        font-size: 18px;
+        position: relative;
+        left: 24px;
+        top: 20px;
+    }
+    .Web {
+        font-size: 16px;
+        position: relative;
+        left: 24px;
+        top: 40px;
+        color: #757575;
+    }
+
+    footer {
+        width: 100%;
+        height: 603px;
+        background: #2F303A;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .group_section {
+        width: 430px;
+        height: 470px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 120px;
+    }
+    .section12 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 90px;
+    }
+    .section123 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height:165px;
+    }
+    .WebStudio_footer {
+        text-decoration: none;
+        font-weight: 700;
+        font-family: 'Raleway';
+        font-size: 26px;
+        line-height: 31px;
+        color: #2196F3;
+        transition: 0.5s;
+    }
+    .logo_2_element_footer {
+        color: white;
+    }
+    .mail_tel_footer {
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+    }
+    .location {
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .mail_footer {
+        color: #FFFFFF99;
+        font-weight: 400;
+        font-size: 14px;
+        transition: 0.5s;
+    }
+    .mail_footer:hover {
+        color: #2196F3;
+    }
+    .tel_footer {
+        color: #FFFFFF99;
+        font-weight: 400;
+        font-size: 14px;
+        transition: 0.5s;
+    }
+    .tel_footer:hover {
+        color: #2196F3;
+    }
+    .WebStudio:hover, .WebStudio_footer:hover {
+        transform: scale(1.1);
+    }
+    .join_in {
+        font-weight: 700;
+        font-size: 14px;
+        color: white;  
+    }
+    .icons {
+        width: 206px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: #FFFFFF1A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s;
+    }
+    .icon:hover {
+        background: #2196F3;
+    }
+    .subscribe_on {
+        font-weight: 700;
+        font-size: 14px;
+        color: white;
+    }
+    .input_for_subscribe {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 125px;
+    }
+    .e_mail {
+        width: 450px;
+        height: 50px;
+        background: transparent;  
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 15px 0 15px 16px;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.3);
+    }
+    .clic {
+        width: 200px;
+        height: 50px;
+        background: #2196F3;
+        border: none;
+        cursor: pointer;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .subscribe {
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+        padding: 0 10px 0 0;
+    }
+}
+
+
+@media (min-width:481px) and (max-width:1200px) {
+    .svg_menu {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: #757575;
+        font-size: 14px;
+    }
+
+    header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        height: 80px;
+    }
+    .header_section {
+        display: flex;
+        justify-content: space-between;
+        width: 750px;
+        margin: 0 30px;
+    }
+    .WebStudio{
+        position: relative;
+        top: -7px;
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 24px;
+        color: #2196F3;
+        transition: 0.5s;
+    }
+    .logo_2_element{
+        color: rgb(0, 0, 1)
+    }
+    .menu_nav{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 250px;
+        height: 48px;
+    }
+    .menu_nav a {
+        list-style: none;
+        transition: 0.2s;
+    }
+    .menu_nav a:hover {
+        border-bottom: 4px solid #2196F3;
+    }
+    .Portfolia{
+        color: #2196F3;
+        border-bottom: 4px solid #2196F3;
+    }
+    .studio:hover , .contact:hover {
+        color: #2196F3;
+        transform: scale(1.05);
+    }
+    .mail_tel {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        width: 170px;
+        position: relative;
+        top: -13px;;
+
+    }
+    .social_network {
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+    }
+    .social_network svg {
+        margin-right: 10px;
+    }
+    .tel, .mail{
+        text-decoration: none;
+        color: #757575;
+        transition: 0.5s;
+    }
+    .tel:hover, .mail:hover {
+        color: #2196F3;
+    }
+    hr {
+        color: rgba(240, 240, 240, 0.295);
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2400px;
+    }
+    .main_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 2240px;
+        margin: 0 30px;
+    }
+    .menu_button {
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .choose {
+        padding: 6px 22px;
+        background: #F5F4FA;
+        color: black;
+        font-size: 16px;
+        border: none;
+        border-radius:6%;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+    .choose:hover {
+        transform: scale(1.05);
+        background: #2196F3;
+        color: white;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+    .all {
+        padding: 6px 22px;
+        font-size: 16px;
+        border: none;
+        border-radius:6%;
+        background: #2196F3;
+        color: white;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        cursor: pointer;
+    }
+    .menu_design {
+        max-width:840px;
+        min-width:450px;
+        height: 2200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .design {
+        width: 49.5%;
+        height: 404px;
+        border: 1px solid #EEEEEE;
+        transition: 0.4s;
+    }
+    .design img {
+        width: 100%;
+    }
+    .design:hover {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+    .advertising {
+        position: relative;
+        top: -305px;
+        left: 0;
+        width: 100%;
+        height: 264px;
+        color: white;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        padding: 63px 24px 63px 24px;
+        letter-spacing: 0.03em;
+        opacity: 0;
+        transition: opacity .4s;
+    }
+    .design:hover .advertising {
+        background: rgba(33, 150, 243, 0.9);
+        opacity: 1;
+    }
+    .profesion {
+        font-weight: 700;
+        font-size: 18px;
+        position: relative;
+        left: 24px;
+        top: 20px;
+    }
+    .Web {
+        font-size: 16px;
+        position: relative;
+        left: 24px;
+        top: 40px;
+        color: #757575;
+    }
+
+    footer {
+        width: 100%;
+        height: 463px;
+        background: #2F303A;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .group_section {
+        width: 600px;
+        height: 370px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 30px;
+    }
+    .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:center;
+        height: 140px;
+    }
+    .section12 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:center;
+        height: 110px;
+    }
+    .WebStudio_footer {
+        text-decoration: none;
+        font-weight: 700;
+        font-family: 'Raleway';
+        font-size: 26px;
+        line-height: 31px;
+        color: #2196F3;
+        transition: 0.5s;
+    }
+    .logo_2_element_footer {
+        color: white;
+    }
+    .mail_tel_footer {
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:center;
+        list-style: none;
+    }
+    .location {
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .mail_footer {
+        font-weight: 400;
+        font-size: 14px;
+        transition: 0.5s;
+    }
+    .mail_footer:hover {
+        color: #2196F3;
+    }
+    .tel_footer {
+        font-weight: 400;
+        font-size: 14px;
+        transition: 0.5s;
+    }
+    .tel_footer:hover {
+        color: #2196F3;
+    }
+    .WebStudio:hover, .WebStudio_footer:hover {
+        transform: scale(1.1);
+    }
+    .join_in {
+        font-weight: 700;
+        font-size: 14px;
+        color: white;  
+    }
+    .icons {
+        width: 206px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: #FFFFFF1A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s;
+    }
+    .icon:hover {
+        background: #2196F3;
+    }
+    .subscribe_on {
+        font-weight: 700;
+        font-size: 14px;
+        color: white;
+    }
+    .input_for_subscribe {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 580px;
+        height: 125px ;
+    }
+    .e_mail {
+        width: 358px;
+        height: 50px;
+        background: transparent;  
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 15px 0 15px 16px;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.3);
+    }
+    .clic {
+        width: 200px;
+        height: 50px;
+        background: #2196F3;
+        border: none;
+        cursor: pointer;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .subscribe {
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+        padding: 0 10px 0 0;
+    }
+    .section123 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:center;
+        height: 170px;
+    }
+    .svg_menu {
+        display: none;
+    }
+}
